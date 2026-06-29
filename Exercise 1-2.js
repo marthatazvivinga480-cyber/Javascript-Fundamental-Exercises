@@ -10,8 +10,7 @@ console.log("Your age is "  + age);
 
 // 3.Create variables for length and width and calculate the area of a rectangle.
 
-length = 8;
-Width = 5;
+const length = 8, Width = 5;
 const area = (length* Width)
 console.log (area);
 
@@ -63,11 +62,30 @@ const average = (num8 + num9 + num10) / 3;
 
 console.log(average);
 
-//14.temperature in Celsius and convert it to Fahrenheit.
+//11. Ask the user for their name and greet them
+const username = prompt("what is your name?");
+console.log(`Hello, ${username}!`)
 
+
+//12. Ask for two numbers and display their sum.
+let num11 =7;
+let num12 = 5;
+let totalSum = num11 + num12;
+console.log(totalSum);
+
+
+//13. Ask for a person's age and display it
+const yourAge = prompt("What is your age?");
+console.log("Wow! You are " + yourAge + " years old.");
+
+
+
+//14.temperature in Celsius and convert it to Fahrenheit.
 const celsius =  35;
 const fahreheit = (celsius * 9 / 5 ) + 32;
 console.log("fahreheit=" , fahreheit );
+
+
 
 //15.Display the square of a number
 
