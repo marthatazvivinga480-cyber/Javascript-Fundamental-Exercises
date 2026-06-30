@@ -295,3 +295,14 @@ for (let i = 1; i <= 100; i++) {
 
 console.log("Sum of numbers from 1 to 100:", sum);
 
+//36.Calculate the factorial of a number.
+let number = 5;
+let factorial = 1;
+
+for (let i = number; i >= 1; i--) {
+    factorial *= i;
+};
+
+console.log("Factorial of " + number + " is: " + factorial);
+
+
