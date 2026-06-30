@@ -146,3 +146,64 @@ switch (character) {
     default:
         alert("Not a vowel");
 };
+
+
+//25. Determine whether three sides can form a triangle.
+const a = Number(prompt("Enter side A:"));
+const b = Number(prompt("Enter side B:"));
+const c = Number(prompt("Enter side C:"));
+
+switch (true) {
+    case (a + b > c && a + c > b && b + c > a):
+        console.log("Valid triangle");
+        break;
+
+    default:
+        console.log("Not a valid triangle");
+};
+
+
+// 27.Determine if a user can log in (correct username and password).
+
+const username = prompt("Enter Username");
+const password = prompt("Enter Password");
+let tries = 3;
+
+while(username !== "admin" && password !== "pass123"){
+    const username = prompt("Enter Username");
+    const password = prompt("Enter Password");
+    tries--;
+
+    if(username === "admin" && password === "pass123"){
+        alert("You are signed in");
+        let tries = 0;
+    }
+
+    else if(tries = 0){
+        alert("You are locked out, try after 25 minutes!")
+    }
+    };
+
+
+let tries1 = 3;
+
+while (tries1 > 0) {
+    const username = prompt("Enter Username");
+    const password = prompt("Enter Password");
+
+    if (username === "admin" && password === "pass123") {
+        alert("You are signed in");
+        break;
+    } else {
+        tries1--;
+        alert("Wrong credentials. Tries left: " + tries);
+    };
+
+    if (tries1 === 0) {
+        alert("You are locked out, try after 25 minutes!");
+    }
+};
+
+
+
+        
