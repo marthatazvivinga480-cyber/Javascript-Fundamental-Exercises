@@ -29,6 +29,12 @@ const firstName = "Martha"
 const LastName = "Mukucha"
 console.log( firstName +" "+ LastName);
 
+// 7.Find the remainder when 17 is divided by 3.
+const result = 17 % 3;
+
+console.log("Remainder:", result);
+
+
 
 
 
