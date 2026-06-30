@@ -275,3 +275,13 @@ for (let i = 1; i <= 20; i++) {
         console.log(i);
     }
 };
+
+
+//34.Print the multiplication table of 5
+let multiple = 1;
+
+while (multiple <= 10) {
+    console.log("5 x " + i + " = " + (5 * multiple));
+    multiple++;
+};
+
