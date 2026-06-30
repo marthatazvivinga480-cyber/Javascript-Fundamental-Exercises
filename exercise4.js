@@ -40,5 +40,15 @@ numbers2.forEach(function(number) {
 
 console.log(count);
 
+// Find the largest number in an array.
+const numbers3 = [12, 45, 7, 89, 23];
+let largest = numbers3[0];
 
+numbers3.forEach(function(number) {
+    if (number > largest) {
+        largest = number;
+    }
+});
+
+console.log(largest);
 
