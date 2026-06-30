@@ -319,3 +319,13 @@ while (divisible <= 50) {
 
 console.log("Count of numbers divisible by 3 between 1 and 50:", count);
 
+
+//38. Print the first 10 multiples of 7.
+let multiples = 1;
+
+while (multiple <= 10) {
+    console.log("7 x " + multiple + " = " + (7 * multiple));
+    multiple++;
+};
+
+
