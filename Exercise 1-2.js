@@ -20,8 +20,16 @@ const num2 = 20;
 
 console.log("Sum:", num1 + num2);
 
-//Store your favorite color and print a sentence using it.
+//5.Store your favorite color and print a sentence using it.
 const favouriteColor = "White"
 console.log("my favourite color is  " + favouriteColor);
+
+//6.Create variables for first name and last name and combine them.
+const firstName = "Martha"
+const LastName = "Mukucha"
+console.log( firstName +" "+ LastName);
+
+
+
 
 
