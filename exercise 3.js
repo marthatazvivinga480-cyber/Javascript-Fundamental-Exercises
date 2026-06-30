@@ -396,3 +396,10 @@ for (let i = 1; i <= 5; i++) {
     }
     console.log(row);
 };
+
+
+//arrays(46-50)
+//46. Create an array of five fruits and print it.
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grape"];
+
+console.log(fruits);
