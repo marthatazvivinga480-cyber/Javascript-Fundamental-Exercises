@@ -12,12 +12,23 @@ names.forEach(function(name) {
 
 });
 
+//3.Print each fruit in uppercase.
+
 const fruits = ["apple", "banana", "orange"];
 
 fruits.forEach(function(fruit) {
     console.log(fruit.toUpperCase());
 });
 
+//4.Find the sum of all numbers.
+const numbers1 = [2, 4, 6, 8, 10];
+let sum = 0;
+
+numbers1.forEach(function(number) {
+    sum += number;
+});
+
+console.log(sum);
 
 
 
