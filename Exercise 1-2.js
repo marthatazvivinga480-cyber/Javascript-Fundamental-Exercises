@@ -2,3 +2,7 @@
 let name = ("Martha" );
 console.log("Hello "  + name);
 
+//2.Ask for a person's age and display it
+const age = 45;
+
+console.log("Your age is " + age);
