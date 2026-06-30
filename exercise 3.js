@@ -229,3 +229,28 @@ while (num23<= 100){
     }
 };
         
+
+//30. Check whether a year is a century year.
+function isCenturyYear(year) {
+    let result = "";
+    let i = 0;
+
+    while (i < 1) {
+        if (year % 400 === 0) {
+            result = year + " is a century leap year";
+        } else if (year % 100 === 0) {
+            result = year + " is a century year (NOT a leap year)";
+        } else {
+            result = year + " is NOT a century year";
+        }
+        i++;
+    }
+    return result;   // ← now has a function to return to
+}
+
+// Call the function
+console.log(isCenturyYear(2000));  // century leap year
+console.log(isCenturyYear(1900));  // century year NOT leap
+console.log(isCenturyYear(2024));  // not a century year
+
+
