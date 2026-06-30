@@ -100,6 +100,20 @@ num5.forEach(function(num) {
 
 console.log(doubled);
 
+//11.calculate the average of all numbers in an array
+{
+    const num6 = [10, 20, 30, 40];
+
+    let sum = 0;
+
+    num6.forEach(function(num) {
+        sum += num;
+    });
+
+    let average = sum / num6.length;
+
+    console.log("Average:", average);
+};
 
 
 
