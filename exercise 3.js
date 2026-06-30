@@ -76,3 +76,24 @@ switch (true) {
         console.log("Failed");
 };
 
+//21.leap year
+const year = Number(prompt("Enter a year:"));
+
+switch (true) {
+    case (year % 400 === 0):
+        console.log("Leap year");
+        break;
+
+    case (year % 100 === 0):
+        console.log("Not a leap year");
+        break;
+
+    case (year % 4 === 0):
+        console.log("Leap year");
+        break;
+
+    default:
+        console.log("Not a leap year");
+};
+
+
