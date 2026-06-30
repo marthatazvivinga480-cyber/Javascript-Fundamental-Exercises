@@ -106,3 +106,26 @@ if (num6 % 5 === 0) {
     console.log(" Not Divisible by 5");
     };
 
+
+//23. assigning grades 90–100 → A, 80–89 → B,70–79 → C , 
+//Below 70 → Fail
+ 
+const mark = Number(prompt("Enter grades:"));
+   switch(true){
+
+ case(mark > 90 && mark <=100): 
+    console.log("A");
+    break;
+
+case(mark > 80 && mark <=89): 
+    console.log("B");
+break;
+
+case(mark > 70 &&  mark <=79): 
+    console.log("C");
+    break;
+
+case(mark >69 && mark>=69):
+     console.log("Fail");
+  break;
+   };
