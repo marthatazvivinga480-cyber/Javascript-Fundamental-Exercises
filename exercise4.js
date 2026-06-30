@@ -152,3 +152,18 @@ num8.forEach(function(num, index) {
 });
 
 console.log("Duplicates:", duplicates);
+
+//15.Count how many times each word appears.
+const word2 = ["apple", "banana", "apple", "orange", "banana", "apple"];
+
+let wordCount = {};
+
+word2.forEach(function(word) {
+    if (wordCount[word]) {
+        wordCount[word]++;
+    } else {
+        wordCount[word] = 1;
+    }
+});
+
+console.log(wordCount);
