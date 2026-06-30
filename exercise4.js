@@ -73,3 +73,17 @@ names4.forEach(function(name) {
         console.log(name);
     }
 });
+
+//9.Count how many vowels are in an array of letters.
+const letters = ["a", "b", "e", "g", "i", "o", "u"];
+
+let vowelCount = 0;
+const vowels = ["a", "e", "i", "o", "u"];
+
+letters.forEach(function(letter) {
+    if (vowels.includes(letter)) {
+        vowelCount++;
+    }
+});
+
+console.log(vowelCount);
