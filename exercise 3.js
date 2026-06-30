@@ -403,3 +403,8 @@ for (let i = 1; i <= 5; i++) {
 let fruits = ["Apple", "Banana", "Mango", "Orange", "Grape"];
 
 console.log(fruits);
+
+//47. Print the first element of an array.
+let fruits2 = ["Apple", "Banana", "Mango", "Orange", "Grape"];
+
+console.log("First fruit:", fruits2[0]);
