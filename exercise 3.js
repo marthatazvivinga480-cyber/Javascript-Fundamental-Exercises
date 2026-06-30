@@ -48,3 +48,17 @@ switch (true) {
         console.log("Both numbers are equal");
 };
 
+
+// 19.eligible to vote (18+) 
+
+const age = Number(prompt("Enter your age:"));
+
+switch (true) {
+    case age >= 18:
+        console.log("You are eligible to vote.");
+        break;
+
+    default:
+        console.log("You are not eligible to vote.");
+};
+
