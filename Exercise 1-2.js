@@ -80,7 +80,14 @@ const celsius =  35;
 const fahreheit = (celsius * 9 / 5 ) + 32;
 console.log("fahreheit=" , fahreheit );
 
+ 
+//15.Display the square of a number
 
+const num = 4;
+
+const square = num ** 2;
+
+console.log("Square =", square);
 
 
 
