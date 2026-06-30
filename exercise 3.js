@@ -388,3 +388,11 @@ for (let i = 5; i >= 1; i--) {
     console.log(row);
 };
 
+//45.Print a 5×5 multiplication table.
+for (let i = 1; i <= 5; i++) {
+    let row = "";
+    for (let j = 1; j <= 5; j++) {
+        row += (i * j) + "\t";
+    }
+    console.log(row);
+};
