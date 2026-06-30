@@ -59,6 +59,13 @@ const average = (num8 + num9 + num10) / 3;
 
 console.log(average);
 
+//Ask the user for their name and greet them.
+const username = prompt("What is your name?");
+console.log(`Hello, ${username}!`);
+
+
+
+
 
 
 
