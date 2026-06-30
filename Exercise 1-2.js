@@ -6,3 +6,9 @@ console.log("Hello "  + name);
 const age = 45;
 
 console.log("Your age is " + age);
+
+
+// 3.Create variables for length and width and calculate the area of a rectangle.
+const length = 8, Width = 5;
+const area = (length* Width)
+console.log (area);
