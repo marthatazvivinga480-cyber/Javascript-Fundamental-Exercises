@@ -377,3 +377,14 @@ for (let i = 1; i <= 5; i++) {
     }
     console.log(row);
 };
+
+
+//44.print deceasing number pattern
+for (let i = 5; i >= 1; i--) {
+    let row = "";
+    for (let j = 5; j >= 6 - i; j--) {
+        row += j;
+    }
+    console.log(row);
+};
+
