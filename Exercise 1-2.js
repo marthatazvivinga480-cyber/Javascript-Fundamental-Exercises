@@ -50,6 +50,15 @@ num7 = temp;
 console.log("num6 =", num6);
 console.log("num7 =", num7);
 
+//10.Calculate the average of three numbers.
+const num8 = 10;
+const num9 = 20;
+const num10 = 30;
+
+const average = (num8 + num9 + num10) / 3;
+
+console.log(average);
+
 
 
 
