@@ -39,6 +39,17 @@ const num5 = "25"
 num5 == 25
 console.log (num5);
 
+//9.Swap the values of two variables.
+let num6 = 20;
+let num7 = 50;
+
+let temp = num6;
+num6 = num7;
+num7 = temp;
+
+console.log("num6 =", num6);
+console.log("num7 =", num7);
+
 
 
 
