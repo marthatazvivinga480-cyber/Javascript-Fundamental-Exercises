@@ -62,3 +62,17 @@ switch (true) {
         console.log("You are not eligible to vote.");
 };
 
+
+//20. whether a student passed (50 or above).
+
+const score = Number(prompt("Enter student mark:"));
+
+switch (true) {
+    case score >= 50:
+        console.log("Passed");
+        break;
+
+    default:
+        console.log("Failed");
+};
+
