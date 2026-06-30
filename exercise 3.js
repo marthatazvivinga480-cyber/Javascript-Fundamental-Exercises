@@ -97,3 +97,12 @@ switch (true) {
 };
 
 
+//22.number is divisible by 5
+const num6 = Number(prompt("Enter a number:"));
+
+if (num6 % 5 === 0) {
+    console.log("Divisible by 5");
+} else {
+    console.log(" Not Divisible by 5");
+    };
+
