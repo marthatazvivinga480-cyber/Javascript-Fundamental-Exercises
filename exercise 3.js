@@ -416,4 +416,12 @@ let fruits3 = ["Apple", "Banana", "Mango", "Orange", "Grape"];
 console.log("Last fruit:", fruits3[fruits.length - 1]);
 
 
+//49.Loop through an array and print each item.
+let fruits4 = ["Apple", "Banana", "Mango", "Orange", "Grape"];
+
+for (let i = 0; i < fruits4.length; i++) {
+    console.log(fruits4[i]);
+};
+
+
 
