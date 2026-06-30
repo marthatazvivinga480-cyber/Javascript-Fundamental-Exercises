@@ -115,5 +115,15 @@ console.log(doubled);
     console.log("Average:", average);
 };
 
+//12.Find the longest word in an array.
+const words = ["apple", "banana", "strawberry", "kiwi"];
 
+let longestWord = "";
 
+words.forEach(function(word) {
+    if (word.length > longestWord.length) {
+        longestWord = word;
+    }
+});
+
+console.log("Longest word:", longestWord);
