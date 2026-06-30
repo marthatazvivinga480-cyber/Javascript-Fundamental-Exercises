@@ -19,3 +19,9 @@ const num1 = 10;
 const num2 = 20;
 
 console.log("Sum:", num1 + num2);
+
+//Store your favorite color and print a sentence using it.
+const favouriteColor = "White"
+console.log("my favourite color is  " + favouriteColor);
+
+
