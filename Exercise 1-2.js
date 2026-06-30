@@ -12,3 +12,10 @@ console.log("Your age is " + age);
 const length = 8, Width = 5;
 const area = (length* Width)
 console.log (area);
+
+
+//4.Store two numbers and print their sum.
+const num1 = 10;
+const num2 = 20;
+
+console.log("Sum:", num1 + num2);
