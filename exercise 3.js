@@ -205,5 +205,18 @@ while (tries1 > 0) {
 };
 
 
+//28.Check whether a person qualifies for a driving license (18+ and has ID).
+let age1 = Number(prompt("Enter your age:"));
+let hasID = prompt("Do you have an ID? (yes or no)");
+
+while (true) {
+    if(age1 >= 18 && hasID.toLowerCase() === "yes") {
+        alert("you qualify for a driving license.");
+        break;
+    } else{
+        alert("You do not qualify for adriving license");
+        break;
+    }
+};
 
         
