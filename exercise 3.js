@@ -129,3 +129,20 @@ case(mark >69 && mark>=69):
      console.log("Fail");
   break;
    };
+
+
+   //24.Check whether a character is a vowel.
+const character = prompt("Enter a character").toLowerCase();
+
+switch (character) {
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        alert(`${character} is a vowel`);
+        break;
+
+    default:
+        alert("Not a vowel");
+};
