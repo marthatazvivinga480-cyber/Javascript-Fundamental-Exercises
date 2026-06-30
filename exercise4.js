@@ -87,3 +87,15 @@ letters.forEach(function(letter) {
 });
 
 console.log(vowelCount);
+
+//10.Create a new array where each number is doubled
+// Create a new array where each number is doubled
+const num5 = [1, 2, 3, 4, 5];
+
+let doubled = [];
+
+num5.forEach(function(num) {
+    doubled.push(num * 2);
+});
+
+console.log(doubled);
