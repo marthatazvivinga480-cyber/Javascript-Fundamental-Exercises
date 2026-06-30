@@ -306,3 +306,16 @@ for (let i = number; i >= 1; i--) {
 console.log("Factorial of " + number + " is: " + factorial);
 
 
+//37.Count how many numbers are divisible by 3 between 1 and 50
+let divisible= 1;
+let count = 0;
+
+while (divisible <= 50) {
+    if (divisible % 3 === 0) {
+        count++;
+    }
+    divisible++;
+}
+
+console.log("Count of numbers divisible by 3 between 1 and 50:", count);
+
