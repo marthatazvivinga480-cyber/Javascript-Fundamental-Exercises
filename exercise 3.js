@@ -408,3 +408,9 @@ console.log(fruits);
 let fruits2 = ["Apple", "Banana", "Mango", "Orange", "Grape"];
 
 console.log("First fruit:", fruits2[0]);
+
+//48.Print the last element of an array.
+let fruits3 = ["Apple", "Banana", "Mango", "Orange", "Grape"];
+
+console.log("Last fruit:", fruits3[fruits.length - 1]);
+
