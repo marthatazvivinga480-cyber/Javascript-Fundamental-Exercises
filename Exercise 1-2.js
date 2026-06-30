@@ -34,6 +34,11 @@ const result = 17 % 3;
 
 console.log("Remainder:", result);
 
+//8.Convert a string "25" into a number.
+const num5 = "25"
+num5 == 25
+console.log (num5);
+
 
 
 
