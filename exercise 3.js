@@ -424,4 +424,16 @@ for (let i = 0; i < fruits4.length; i++) {
 };
 
 
+//50.Find the largest number in an array.
+let numbers = [12, 45, 7, 89, 23, 56, 34];
+let largest = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] > largest) {
+        largest = numbers[i];
+    }
+};
+
+console.log("Largest number:", largest);
+
 
