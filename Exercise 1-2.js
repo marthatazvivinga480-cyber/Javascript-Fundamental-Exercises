@@ -59,9 +59,17 @@ const average = (num8 + num9 + num10) / 3;
 
 console.log(average);
 
-//Ask the user for their name and greet them.
+//11.Ask the user for their name and greet them.
 const username = prompt("What is your name?");
 console.log(`Hello, ${username}!`);
+
+//12.Ask for two numbers and display their sum
+const num11 = 7;
+const num12 = 5;
+
+const totalSum = num11 + num12;
+
+console.log("Sum:", totalSum);
 
 
 
