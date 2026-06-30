@@ -254,3 +254,18 @@ console.log(isCenturyYear(1900));  // century year NOT leap
 console.log(isCenturyYear(2024));  // not a century year
 
 
+
+// loops (31-41)
+//31.Print numbers from 1 to 10.
+let i = 1;
+
+while (i <= 10) {
+    console.log(i);
+    i++;
+};
+
+//32. Print numbers from 10 down to 1.
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
+};
+
