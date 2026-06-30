@@ -12,6 +12,11 @@ names.forEach(function(name) {
 
 });
 
+const fruits = ["apple", "banana", "orange"];
+
+fruits.forEach(function(fruit) {
+    console.log(fruit.toUpperCase());
+});
 
 
 
