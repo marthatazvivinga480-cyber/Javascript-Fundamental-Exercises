@@ -65,3 +65,11 @@ num4.forEach(function(number) {
 });
 console.log(evenCount);
 
+//8.Print only names that start with the letter "A"
+const names4 = ["Alice", "Bob", "Andrew", "Charlie", "Amy"];
+
+names4.forEach(function(name) {
+    if (name.startsWith("A")) {
+        console.log(name);
+    }
+});
