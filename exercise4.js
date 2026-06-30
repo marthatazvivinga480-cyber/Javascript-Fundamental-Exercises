@@ -40,7 +40,7 @@ numbers2.forEach(function(number) {
 
 console.log(count);
 
-// Find the largest number in an array.
+//6 Find the largest number in an array.
 const numbers3 = [12, 45, 7, 89, 23];
 let largest = numbers3[0];
 
@@ -51,4 +51,17 @@ numbers3.forEach(function(number) {
 });
 
 console.log(largest);
+
+//7.Count how many numbers are even.
+// Count how many numbers are even
+const num4 = [1, 2, 3, 4, 5, 6, 7, 8];
+
+let evenCount = 0;
+
+num4.forEach(function(number) {
+    if (number % 2 === 0) {
+        evenCount++;
+    }
+});
+console.log(evenCount);
 
