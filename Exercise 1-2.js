@@ -75,6 +75,11 @@ console.log("Sum:", totalSum);
 const yourAge = prompt("What is your age?");
 console.log("Wow! You are " + yourAge + " years old.")
 
+//14.Ask for a temperature in Celsius and convert it to Fahrenheit.
+const celsius =  35;
+const fahreheit = (celsius * 9 / 5 ) + 32;
+console.log("fahreheit=" , fahreheit );
+
 
 
 
