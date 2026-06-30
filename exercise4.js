@@ -139,3 +139,16 @@ marks.forEach(function(mark) {
     }
 });
 console.log("Passed students:", passCount);
+
+//14.Print all duplicate values in an array.
+const num8 = [1, 2, 3, 2, 4, 5, 1];
+
+let duplicates = [];
+
+num8.forEach(function(num, index) {
+    if (num8.indexOf(num) !== index && !duplicates.includes(num)) {
+        duplicates.push(num);
+    }
+});
+
+console.log("Duplicates:", duplicates);
