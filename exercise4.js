@@ -30,5 +30,15 @@ numbers1.forEach(function(number) {
 
 console.log(sum);
 
+//5.Count how many items are in the array using a foreach loop.
+const numbers2 = [5, 10, 15, 20, 25];
+let count = 0;
+
+numbers2.forEach(function(number) {
+    count++;
+});
+
+console.log(count);
+
 
 
