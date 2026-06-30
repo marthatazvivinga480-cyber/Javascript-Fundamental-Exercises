@@ -219,4 +219,13 @@ while (true) {
     }
 };
 
+//29.Determine whether a number is divisible by both 3 and 5.
+
+let num23 =1;
+while (num23<= 100){
+    if (num23 % 3=== 0 && num23 % 5 == 0){
+        console.log (` ${num23} is divisible by both 3 and 5`);
+        num23++;
+    }
+};
         
