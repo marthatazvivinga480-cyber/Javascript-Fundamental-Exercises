@@ -71,6 +71,10 @@ const totalSum = num11 + num12;
 
 console.log("Sum:", totalSum);
 
+//13. Ask for a person's age and display it
+const yourAge = prompt("What is your age?");
+console.log("Wow! You are " + yourAge + " years old.")
+
 
 
 
