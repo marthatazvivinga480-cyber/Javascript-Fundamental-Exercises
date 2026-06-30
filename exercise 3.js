@@ -328,4 +328,13 @@ while (multiple <= 10) {
     multiple++;
 };
 
+//39. Print a pattern:
+for (let i = 1; i <= 5; i++) {
+    if (i % 2 === 0) {
+        console.log("**");
+    } else {
+        console.log("*");
+    }
+};
+
 
